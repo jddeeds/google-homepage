@@ -1,0 +1,162 @@
+html, body {
+ height: 500px;
+ margin:0;
+ min-width: 500px;
+}
+
+.box{
+	width: 700px;
+	margin-left: 140px;
+	margin: auto;
+
+}
+
+.google-logo{
+	font-family: 'Nunito', sans-serif;
+	font-size: 85px;
+	text-align: center;
+	position: relative;
+	margin-top:  150px;
+	font-weight: bold;
+}
+
+p{
+
+}
+.g1{
+	color:#00A1F1;
+}
+.o1{
+	color:#F65314;
+}
+.o2{
+	color:#FFBB00;
+}
+.g2{
+	color:#00A1F1;
+}
+.l1{
+	color:#7CBB00;
+}
+.e1{
+	color:#F65314;
+}
+
+.searchbox{
+	margin-top: -60px;
+	margin-left: 100px;
+}
+
+input[type=text]{
+	width: 77%;
+	border: 1px solid lightgrey;
+    border-radius: 0;
+    padding: 11px 11px 11px 11px;
+    background-image: url('mic.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+ }
+
+ input[type=text]:hover{
+	border-color: #878787;
+ }
+
+input[type=text]:focus{
+	border-color: #00A1F1;
+}
+ button{
+ 	margin-top: 30px;
+ 	padding: 11px 15px 11px 15px;
+ 	border: 1px solid white;
+ 	color: grey;
+ 	background-color: #F4F4F4;;
+ 	font-weight: bold;
+ }
+
+ button:hover{
+ 	border: 1px solid lightgrey;
+ 	color: black;
+ }
+
+ .button1{
+	margin-left: 205px;
+ }
+
+ .button2{
+ 	margin-left: 5px;
+
+ }
+
+ .topbar{
+ 	font-family: 'Nunito', sans-serif;
+ 	font-size: 12px;
+ 	margin: 20px 135px 0 0;
+ }
+
+.top-images{
+	position: relative;
+	text-align: right;
+	margin-top: -24px;
+	letter-spacing: 6px;
+	margin-right: 20px;
+}
+ .topbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.topbar li {
+    display: inline;
+}
+
+.topbar li a{
+	text-decoration: none;
+	color: black;
+	padding: 6px;
+}
+
+.bottom-nav{
+	font-family: 'Liberation Sans', arial;
+ 	font-size: small;
+}
+
+.bottom-nav ul {
+	border-top: 1px solid #e4e4e4;
+    list-style-type: none;
+    text-align: left;
+    position: absolute;
+ 	bottom: 0;
+ 	margin:0;
+ 	width: 100%;
+ 	background-color: #EEEEEE;
+ 	position:fixed;
+   	left:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.bottom-nav li {
+    display: inline;
+}
+
+.bottom-nav li a{
+	text-decoration: none;
+	color: #6B6B6B;
+	padding-right: 25px;
+}
+
+li a:hover{
+	text-decoration: underline;
+}
+
+#right{
+	float: right;
+}
+#right1{
+	margin-right: 40px;
+	float: right;
+}
